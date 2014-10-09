@@ -11,4 +11,9 @@ def show
   @movie = Movie.find(id) # look up movie by unique ID
   # will render app/views/movies/show.html.haml by default
 end
+
+def new
+	# default: render 'new' template
+end
+
 end
